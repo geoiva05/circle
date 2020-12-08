@@ -35,6 +35,7 @@ class flex(QMainWindow):
             qp.begin(self)
             qp.setPen(Qt.yellow)
             qp.drawEllipse(100, 100, self.radius, self.radius)
+            qp.drawEllipse(400, 100, self.radius, self.radius)
             qp.end()
 
     def paint(self):
